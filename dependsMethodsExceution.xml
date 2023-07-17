@@ -1,0 +1,18 @@
+<?xml version = "1.0"encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Suite1">
+  <test name = "Test Demo">
+      <groups>
+      <define name = "SuperGroup">
+               <include name = "acceptancetest"></include>
+               <include name = "e2etest"></include>
+        </define>
+          <run>
+              <include name = "SuperGroup"/>
+          </run>
+        </groups>
+    <classes>
+          <class name = "depends.on.TestNGGroupDemo"/>
+     </classes>  
+   </test>
+</suite>

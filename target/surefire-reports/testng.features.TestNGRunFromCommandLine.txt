@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: testng.features.TestNGRunFromCommandLine
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 4.849 s <<< FAILURE! - in testng.features.TestNGRunFromCommandLine
+setUp(testng.features.TestNGRunFromCommandLine)  Time elapsed: 4.039 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: E:\Newfolder\chromedriver_win32\chromedriver.exe
+	at testng.features.TestNGRunFromCommandLine.setUp(TestNGRunFromCommandLine.java:19)
+

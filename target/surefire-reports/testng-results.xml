@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-12T11:33:55Z" name="Suite" finished-at="2023-07-12T11:34:11Z" duration-ms="16295">
+    <groups>
+    </groups>
+    <test started-at="2023-07-12T11:33:55Z" name="Test" finished-at="2023-07-12T11:34:11Z" duration-ms="16295">
+      <class name="testng.features.TestNGRunFromCommandLine">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.features.TestNGRunFromCommandLine@49049a04]" started-at="2023-07-12T11:33:55Z" name="setUp" finished-at="2023-07-12T11:34:02Z" duration-ms="7337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPage()[pri:0, instance:testng.features.TestNGRunFromCommandLine@49049a04]" started-at="2023-07-12T11:34:02Z" name="verifyLoginPage" description="This test validates title of login functionality" finished-at="2023-07-12T11:34:02Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.features.TestNGRunFromCommandLine@49049a04]" started-at="2023-07-12T11:34:02Z" name="teardown" finished-at="2023-07-12T11:34:03Z" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.features.TestNGRunFromCommandLine@49049a04]" started-at="2023-07-12T11:34:03Z" name="setUp" finished-at="2023-07-12T11:34:09Z" duration-ms="5832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePage()[pri:1, instance:testng.features.TestNGRunFromCommandLine@49049a04]" started-at="2023-07-12T11:34:09Z" name="verifyHomePage" description="This test validates successful login to Home page" finished-at="2023-07-12T11:34:10Z" duration-ms="1450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.features.TestNGRunFromCommandLine@49049a04]" started-at="2023-07-12T11:34:10Z" name="teardown" finished-at="2023-07-12T11:34:11Z" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testng.features.TestNGRunFromCommandLine -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
